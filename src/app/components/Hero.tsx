@@ -13,8 +13,8 @@ export default function Hero() {
     };
 
     return (
-        <div className={"w-full pt-12 pl-52 pr-36"}>
-            <div className={"w-[300px] mb-20"}>
+        <div className={"mt-12 ml-8 md:ml-52 mr-36"}>
+            <div className={"w-[300px] mb-12 md:mb-20"}>
                 <h1 className={"text-4xl font-bold"}>I&apos;m <span className={"text-[#F9E784]"}>nayrow</span></h1>
                 <p className={"text-2xl mt-12"}>a young web developer and CEO of <span className={"text-[#F9E784]"}>C&S MEDIA</span>
                 </p>
@@ -25,12 +25,12 @@ export default function Hero() {
                     More of me
                 </button>
             </div>
-            <div className={"items-end flex flex-col"}>
+            <div className={"items-start ml-20 md:items-end flex flex-col"}>
                 <div className={"text-center"}>
                     <div>
-                        <hr className={"rotate-90 w-24 border-2 rounded-xl border-[#F9E784]"}/>
+                        <hr className={"md:rotate-90  w-24 border-2 rounded-xl border-[#F9E784]"}/>
                     </div>
-                    <Image src={instagram} height={40} width={40} alt={"instagram"} className={"mx-auto mt-16"}/>
+                    <Image src={instagram} height={40} width={40} alt={"instagram"} className={"mx-auto mt-4 md:mt-16"}/>
                     <Image src={whatsapp} height={40} width={40} alt={"instagram"} className={"mx-auto mt-4"}/>
                     <Image src={github} height={40} width={40} alt={"instagram"} className={"mx-auto mt-4"}/>
                 </div>
