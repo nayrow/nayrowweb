@@ -3,6 +3,7 @@ import logo from "../../../public/logo.png";
 import Link from "next/link";
 import React from "react";
 import Sidebar from "@/app/components/sidebar";
+import ScrolButton from "@/app/components/aboutScroll";
 
 export default function Header() {
     return (
@@ -13,24 +14,19 @@ export default function Header() {
             <div
                 className={"space-x-4 hidden md:flex"}
             >
-                <a
-                    href={"#"}
-                    className={"text-[#F0F8FF]"}
-                >
-                    About
-                </a>
-                <a
-                    href={"#"}
+                <ScrolButton/>
+                <Link
+                    href={"https://cns-media.com/#projects"}
                     className={"text-[#F0F8FF]"}
                 >
                     Projects
-                </a>
-                <a
-                    href={"#"}
+                </Link>
+                <Link
+                    href={"https://cns-media.com/#contact"}
                     className={"text-[#F0F8FF]"}
                 >
                     Contact
-                </a>
+                </Link>
             </div>
             <Link href={"https://cns-media.com"} className={"text-[#F9E784] hidden md:flex"}>C&S MEDIA</Link>
             <div className={"md:hidden"}>

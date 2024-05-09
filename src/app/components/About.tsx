@@ -4,7 +4,7 @@ import next from "../../../public/next.svg"
 export default function About() {
     return (
         <section className={"h-screen"}>
-            <div className={"pt-12 ml-8 md:ml-52 mr-36"}>
+            <div className={"pt-12 ml-8 md:ml-52 md:mr-36"}>
                 <h1 className={"text-4xl font-bold text-[#F9E784] pb-4"}>About</h1>
                 <div className={"flex justify-between gap-4"}>
                     <hr className={"my-4 w-[300px] border-2 rounded-xl border-[#F9E784]"}/>
@@ -20,8 +20,8 @@ export default function About() {
                 </div>
             </div>
             <div className={"flex items-center py-8 flex-col"}>
-                <h1 className={"text-4xl font-bold text-[#F9E784] pb-4"}>My Skills</h1>
-                <div className={"grid grid-cols-3 md:grid-cols-6 gap-4"}>
+                <h1 className={"text-4xl font-bold text-[#F9E784] py-8"}>My Skills</h1>
+                <div className={"flex flex-wrap gap-8 mx-4 md:mx-0 justify-center"}>
                     <SkillCard skill={"NEXT"} url={next}/>
                     <SkillCard skill={"NEXT"} url={next}/>
                     <SkillCard skill={"NEXT"} url={next}/>
