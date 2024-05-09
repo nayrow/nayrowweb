@@ -35,7 +35,7 @@ export default function Sidebar() {
                                     <ScrollButton/>
                                     <Link href={"https://cns-media.com/#projects"} className={"text-[#F0F8FF] px-6 mt-4"}>Projects</Link>
                                     <Link href={"https://cns-media.com/#contact"} className={"text-[#F0F8FF] mt-4"}>Contact</Link>
-                                    <Link href={"https://cns-media.com"} className={"text-[#F9E784] pb-6 mt-4"}>C&S MEDIA</Link>
+                                    <Link href={"https://cns-media.com"} className={"text-[#F9E784] pb-6 mt-4"}>CNS MEDIA</Link>
                                 </div>
                             </div>
                         </div>

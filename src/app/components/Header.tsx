@@ -28,7 +28,7 @@ export default function Header() {
                     Contact
                 </Link>
             </div>
-            <Link href={"https://cns-media.com"} className={"text-[#F9E784] hidden md:flex"}>C&S MEDIA</Link>
+            <Link href={"https://cns-media.com"} className={"text-[#F9E784] hidden md:flex"}>CNS MEDIA</Link>
             <div className={"md:hidden"}>
                 <Sidebar/>
             </div>

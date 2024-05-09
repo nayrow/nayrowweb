@@ -1,7 +1,7 @@
-import SkillCard from "@/app/components/skillcard";
-import next from "../../../public/next.svg"
+import Skills from "@/app/components/skills";
 
 export default function About() {
+    const skills = []
     return (
         <section className={"h-screen"}>
             <div className={"pt-12 ml-8 md:ml-52 md:mr-36"}>
@@ -19,23 +19,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className={"flex items-center py-8 flex-col"}>
-                <h1 className={"text-4xl font-bold text-[#F9E784] py-8"}>My Skills</h1>
-                <div className={"flex flex-wrap gap-8 mx-4 md:mx-0 justify-center"}>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                    <SkillCard skill={"NEXT"} url={next}/>
-                </div>
-            </div>
+            <Skills/>
         </section>
     );
 }

@@ -17,7 +17,7 @@ export default function Hero() {
             <div className={"w-[300px] mb-12 md:mb-20 ml-8 md:ml-52 "}>
                 <h1 className={"text-4xl font-bold"}>I&apos;m <span className={"text-[#F9E784]"}>nayrow</span></h1>
                 <p className={"text-2xl mt-4 2xl:mt-12"}>a young web developer and CEO of <span
-                    className={"text-[#F9E784]"}>C&S MEDIA</span>
+                    className={"text-[#F9E784]"}>CNS MEDIA</span>
                 </p>
                 <button
                     onClick={handleClick}
